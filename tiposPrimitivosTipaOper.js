@@ -2,7 +2,7 @@
 // Utilize o operador typeof para imprimir qual o tipo das variáveis patientId, isEnrolled, patientInfo e patientEmail. 
 // Esse operador retorna qual o tipo de uma variável, objeto, função ou expressão. 
 // Exemplo: console.log(typeof patientId) retornará number.
-
+let nulo = null;
 let patientId = 50;
 let isEnrolled = true;
 const patientInfo = {
@@ -37,3 +37,13 @@ console.log(area);
 
 const perimeter = base + height;
 console.log(perimeter);
+
+//OPERADORES
+
+let valores = 2;
+console.log(valores + valores);     //ADIÇÃO
+console.log(valores - valores);     //SUBTRAÇÃO
+console.log(valores * valores);     //MULTIPICAÇÃO
+console.log(valores / valores);     //DIVISÃO
+console.log(valores ** valores);    //PONTÊCIA
+console.log(valores % valores);     //RESTO DA DIVISÃO
