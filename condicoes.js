@@ -17,7 +17,35 @@ if(nota >= 80){
     console.log("Você foi reprovada(o)");
 }
 
-
 //---Altere o valor da nota para verificar se as condições que você implementou funcionam;
 
+//OPERADORES LOGICOS==================================================
+const churrasco = false;
+const cerveja = true;
+const refrigerante = true;
+const domingo = true;
+const segunda = true;
+//OPERADOR AND=================================
+// if(churrasco && domingo){
+//     console.log('Vamos aproveita o Domigãoooo!!');
+// } else if(domingo && cerveja){
+//     console.log('Domingôoo.. vou tomar umazinha');
+// } else if(domingo && refrigerante){
+//     console.log('Domingo, mas quero refri');
+// } else {
+//     console.log('hoje não é domingo, vou de água');
+// }
 
+// //OPERADOR OR======================================
+// if(segunda || cerveja){
+//     console.log('Deixa para o fim de semana');
+// } else {
+//     console.log('Não é segunda? então vamos beber!');
+// }
+
+//OPERADOR NOT========================================
+if(!segunda){
+    console.log('hoje já é segunda');
+} else {
+    console.log('hoje é terça');
+}
