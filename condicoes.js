@@ -19,6 +19,22 @@ if(nota >= 80){
 
 //---Altere o valor da nota para verificar se as condições que você implementou funcionam;
 
+//and================
+//true && true = true
+//true && false = false
+//false && true = false
+//false && false = false
+
+//or=================
+// true || true = true
+// true || false = true
+// false || true = true
+// false || false = false
+
+//not===============
+//not true === false
+//not false === true
+
 //OPERADORES LOGICOS==================================================
 const churrasco = false;
 const cerveja = true;
@@ -26,15 +42,15 @@ const refrigerante = true;
 const domingo = true;
 const segunda = true;
 //OPERADOR AND=================================
-// if(churrasco && domingo){
-//     console.log('Vamos aproveita o Domigãoooo!!');
-// } else if(domingo && cerveja){
-//     console.log('Domingôoo.. vou tomar umazinha');
-// } else if(domingo && refrigerante){
-//     console.log('Domingo, mas quero refri');
-// } else {
-//     console.log('hoje não é domingo, vou de água');
-// }
+if(churrasco && domingo){
+    console.log('Vamos aproveita o Domigãoooo!!');
+} else if(domingo && cerveja){
+    console.log('Domingôoo.. vou tomar umazinha');
+} else if(domingo && refrigerante){
+    console.log('Domingo, mas quero refri');
+} else {
+    console.log('hoje não é domingo, vou de água');
+}
 
 // //OPERADOR OR======================================
 // if(segunda || cerveja){
@@ -44,8 +60,8 @@ const segunda = true;
 // }
 
 //OPERADOR NOT========================================
-if(!segunda){
-    console.log('hoje já é segunda');
-} else {
-    console.log('hoje é terça');
-}
+// if(!segunda){
+//     console.log('hoje já é segunda');
+// } else {
+//     console.log('hoje é terça');
+// }
